@@ -4,6 +4,6 @@ nombre = input("¿Cómo te llamas? ")
 edad = int(input("¿Cúantos años tienes? "))
 
 if edad >= 18 :
-    print("Puedes votar")
+    print(nombre, "puedes votar")
 else: 
-    print("No puedes votar")
+    print(nombre, "no puedes votar")
